@@ -8,6 +8,7 @@
 sudo fast-rails.sh -sys YOUR_USER_NAME -rb_version YOUR_RUBY_VERSION
 ```
 YOUR_USER_NAME - working user on whose behalf the connection to the database and work with the project will be performed
+
 YOUR_RUBY_VERSION - desired ruby version (do not forget that ruby version must be equal with project ruby version)
 
 this script will install nessary libraries
