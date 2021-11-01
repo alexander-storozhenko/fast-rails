@@ -4,6 +4,7 @@ while true; do
   case "$1" in
     -sys | --sysuser ) USER_NAME=$2; shift 2;;
     -rb | --rbversion ) RB_VERSION=$2; shift 2;;
+    -node | --nodeversion ) NODE_V=$2; shift 2;;
     * ) break ;;
   esac
 done
