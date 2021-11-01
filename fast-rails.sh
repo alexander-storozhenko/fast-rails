@@ -10,7 +10,7 @@ done
 
 # main
 
-sudo useradd -r USER_NAME
+sudo useradd -r $(USER_NAME)
 sudo apt-get update && sudo apt-get upgrade
 
 . nodejs.sh
