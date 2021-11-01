@@ -49,7 +49,7 @@ after successful script performing you need to configure nginx
 
 create file with name of your domain(in our example - "example.com") in dir: /etc/nginx/sites-available
 ```
-touch /etc/nginx/sites-available/example.com
+nano /etc/nginx/sites-available/example.com
 ```
 open file and write something like
 
