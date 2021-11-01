@@ -14,7 +14,7 @@ YOUR_USER_NAME - working user on whose behalf the connection to the database and
 
 YOUR_RUBY_VERSION - desired ruby version (do not forget that ruby version must be equal with project ruby version)
 
-YOUR_RUBY_VERSION - desired node js version
+YOUR_NODE_VERSION - desired node js version
 
 this script will install  nessary libraries
  - nodejs
