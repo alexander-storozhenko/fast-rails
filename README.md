@@ -3,13 +3,18 @@
 ## Install rails in one command!
 
 ## Usage (Ubuntu 16.04)
+I recommend changing the directory to /home and doing nothing from the root
 
-```shell
-sudo fast-rails.sh -sys YOUR_USER_NAME -rb_version YOUR_RUBY_VERSION
+run main script
+```
+cd ./fast-rails
+sudo ./fast-rails.sh -sys YOUR_USER_NAME -rb YOUR_RUBY_VERSION -node YOUR_NODE_VERSION
 ```
 YOUR_USER_NAME - working user on whose behalf the connection to the database and work with the project will be performed
 
 YOUR_RUBY_VERSION - desired ruby version (do not forget that ruby version must be equal with project ruby version)
+
+YOUR_RUBY_VERSION - desired node js version
 
 this script will install  nessary libraries
  - nodejs
