@@ -17,6 +17,7 @@ YOUR_NODE_VERSION - desired node js version
 
 this script will install  nessary libraries
  - nodejs
+ - npm
  - postgresql
  - nginx
  - ruby-build
