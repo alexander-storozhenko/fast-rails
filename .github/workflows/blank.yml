@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
 
   # The type of runner that the job will run on
-  write-to-console:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Install SSH Key
@@ -29,4 +29,4 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       - name: Deploy with rsync
-        run: rsync -avz ./dist/ root@${{ secrets.SSH_HOST }}:/home/
+        run: rsync -avz root@${{ secrets.SSH_HOST }}:/home/
