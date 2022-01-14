@@ -1,4 +1,5 @@
 name: deploy
+on: [push]
 jobs:
   write-to-console:
     runs-on: ubuntu-latest
